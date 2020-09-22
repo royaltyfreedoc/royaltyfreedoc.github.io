@@ -1,0 +1,20 @@
+//  Developed by Roshan Bhattarai 
+//  Visit http://roshanbh.com.np for this script and more.
+//  This notice MUST stay intact for legal use
+$(document).ready(function()
+{
+    //when the close button at right corner of the message box is clicked 
+	$('#close_message').click(function()
+	{
+  		//the messagebox gets scrool down with top property and gets hidden with zero opacity 
+		$('#message_box').animate({ top:"+=15px",opacity:0 }, "slow");
+		$('.navbar-inverse').animate({ marginTop:"-=50px" }, "slow");
+	});
+	    //when the close button at right corner of the message box is clicked 
+	$('#close_message2').click(function()
+	{
+  		//the messagebox gets scrool down with top property and gets hidden with zero opacity 
+		$('#message_box').animate({ top:"+=15px",opacity:0 }, "slow");
+		$('.navbar-inverse2').animate({ marginTop:"-=180px" }, "slow");
+	});
+});
