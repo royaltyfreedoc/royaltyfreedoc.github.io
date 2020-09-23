@@ -32,6 +32,7 @@ h4 {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
+  text-align: center;
 }
 h5 {
   margin: 10px 0px;
@@ -174,6 +175,7 @@ p {
 .video {
   position: relative;
   height: 700px;
+  width: 80%;
 }
 .infographic {
   padding-right: 5%;
