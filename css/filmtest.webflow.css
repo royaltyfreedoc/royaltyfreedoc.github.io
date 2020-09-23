@@ -173,18 +173,6 @@ p {
 }
 .video {
   position: relative;
-  padding-bottom: 76%;
-  padding-left: 60px;
-}
-.video.fixed {
-  position: fixed;
-  top: 5px;
-  z-index: 1;
-  display: block;
-  text-align: center;
-  margin-left: -6px;
-  padding-right: 21%;
-  padding-bottom: 26%;
 }
 .infographic {
   padding-right: 5%;
