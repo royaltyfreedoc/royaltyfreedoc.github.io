@@ -173,6 +173,7 @@ p {
 }
 .video {
   position: relative;
+  height: 700px;
 }
 .infographic {
   padding-right: 5%;
