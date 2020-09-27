@@ -211,6 +211,9 @@ p {
 .scale {
 	margin-bottom: 15px;
 }
+.scale2 {
+	position: relative;
+}
 .scale p {
 	position: relative;
 	padding-bottom: 56.25%; /* 16:9 */
